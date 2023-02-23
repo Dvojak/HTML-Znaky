@@ -1,0 +1,30 @@
+ul#nested-list{
+    list-style-type:upper-roman;   
+    color: blue;
+    font-size: large;
+}
+ul#nested-list ul{
+    list-style-type:upper-alpha;
+    color: red;
+    font-size: medium;
+}
+ul#nested-list ul ul{
+    list-style-type: lower-alpha;
+    color: green;
+    font-size: small;
+}
+ul#nested-list li{
+    margin-left: 20px;
+}
+ul#nested-list ul li{
+    margin-left: 40px;
+}
+ul#nested-list ul ul li{
+    margin-left: 60px;
+}
+dt{
+    font-weight: bold;
+}
+dd{
+    margin-left: 20px;
+}
