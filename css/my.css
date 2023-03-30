@@ -1,0 +1,80 @@
+ul#nested-list{
+    list-style-type:upper-roman;   
+    color: blue;
+    font-size: large;
+}
+ul#nested-list ul{
+    list-style-type:upper-alpha;
+    color: red;
+    font-size: medium;
+}
+ul#nested-list ul ul{
+    list-style-type: lower-alpha;
+    color: green;
+    font-size: small;
+}
+ul#nested-list li{
+    margin-left: 20px;
+}
+ul#nested-list ul li{
+    margin-left: 40px;
+}
+ul#nested-list ul ul li{
+    margin-left: 60px;
+}
+dt{
+    font-weight: bold;
+}
+dd{
+    margin-left: 20px;
+}
+[rowspan]{
+    color:red
+}
+h1, h2, h3, h4 {
+    padding-left: 10%;
+}
+
+section#znacky h2, section#znacky h3{
+    padding-left: 0;
+}
+ol li:first-child{
+    color: red;
+}
+#seznamy>h2, #seznamy>ol>li{
+    color: green;
+}
+table{
+    width: 100%;
+    
+}
+caption{
+    background-color: lightyellow;
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+}
+
+td{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+th#JOE{
+    background-color: slateblue;
+    color: white;
+}
+th#L{
+    background-color: dodgerblue;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+td#M{
+    background-color: lightgrey;
+    color: red;
+    
+    
+}
